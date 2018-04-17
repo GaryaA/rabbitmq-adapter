@@ -1,0 +1,36 @@
+{
+  "source": "search",
+  "authorization": {
+    "token_id": "27529be6-883b-46bd-9b68-e38d69f0c92b",
+    "token_data": "first token"
+  },
+  "result": {
+    "candidates": [
+      {
+        "user_data": "\u043a\u0430\u043a\u043e\u0439-\u0442\u043e \u043f\u0430\u0440\u0435\u043d\u044c",
+        "similarity": 0.0638460889,
+        "person_id": "d9ade2fd-6b1f-4d1b-9697-9584e519d283",
+        "descriptor_id": "cf68dd68-0863-49c8-b96b-67671224ebf7"
+      }
+    ],
+    "face": {
+      "id": "b384c43e-e970-4107-b1d5-2eb4ce21c13a"
+    }
+  },
+  "template": {
+    "descriptor_id": "b384c43e-e970-4107-b1d5-2eb4ce21c13a"
+  },
+  "candidate": {
+    "person_ids": [
+      "d9ade2fd-6b1f-4d1b-9697-9584e519d283"
+    ]
+  },
+  "event_type": "match",
+  "timestamp": 1516108760.4472639561
+}
+
+{
+  id: "person_id в системе Luna",
+  name: "Иван Иванов",
+  photo: "строка в формате Base64"
+}
