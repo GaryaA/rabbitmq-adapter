@@ -52,10 +52,10 @@ public class Producer extends EndPoint {
                 "                <Amount>3000</Amount>\n" +
                 "            </Transaction>\n" +
                 "        </Doc>";
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
             producer.sendMessage(Base64.getEncoder().encode(sentMessage.getBytes(Charset.forName("UTF-8"))), "", "way4queuetest");
         }
-        System.out.println("gdf");
+        System.out.println("ok");
         producer.close();
     }
 
